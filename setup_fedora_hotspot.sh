@@ -9,9 +9,9 @@ LOG_FILE="/var/log/fedora_hotspot_setup.log"
 BACKUP_DIR="/etc/fedora_hotspot_backup_$(date +%Y%m%d%H%M%S)"
 # --- !!! IMPORTANT: Customize these values !!! ---
 WIFI_IFACE=""               # e.g., "wlp0s20f3", "wlan0" - WILL BE DETECTED IF EMPTY
-HOTSPOT_SSID="MyFedoraHotspot"
-HOTSPOT_PASSWORD="ChangeMeToAStrongPassword" # Min 8 chars for WPA2
-HOTSPOT_CONN_NAME="Fedora Hotspot Auto"
+HOTSPOT_SSID="belkin54"
+HOTSPOT_PASSWORD="Reasonable!" # Min 8 chars for WPA2
+HOTSPOT_CONN_NAME="belkin54"
 ETHERNET_IFACE=""           # e.g., "enp0s3", "eth0" - WILL BE DETECTED IF EMPTY
 
 # --- Functions ---
